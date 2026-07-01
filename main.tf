@@ -19,7 +19,7 @@ module "eks" {
   version = "20.24.2"
 
   cluster_name    = "anjli-eks-cluster"
-  cluster_version = "1.28"
+  cluster_version = "1.30"
 
   vpc_id = var.vpc_id
 
